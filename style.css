@@ -1,0 +1,35 @@
+.text-format{
+	text-align: justify;
+	border-radius: 2px;
+	padding: 5px 5px;
+	font-size: 18px;
+}
+
+.section{
+	border-radius: 25px;
+	border: 2px solid #8e9aad;
+	padding: 20px; 
+	margin-bottom: 10px;
+}
+
+.timeline{
+	text-align: right;
+}
+
+.nav-element{
+	border-radius: 5px;
+	margin: 3px;
+	font-size: 21px;
+}
+
+.nav{
+	text-align: center;
+	background-color: #d9d2bd;
+	margin-left: 20px;
+	position: sticky;
+	top: 0;
+	border-radius: 10px;
+}
+.nav-element:hover{
+	background-color: #ffccb3;
+}
