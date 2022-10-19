@@ -1,178 +1,309 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-	<title>Avijit Bhattacharjee</title>
+    <title>Avijit Bhattacharjee</title>
+  </head>
+  <body>
+    <main>
+      <nav class="nav navbargi">
+        <a href="#" class="nav-element">Avijit Bhattacharjee</a>
+        <a href="#summary" class="nav-element">Summary</a>
+        <a href="#experience" class="nav-element">Experience</a>
+        <a href="#education" class="nav-element">Education</a>
+        <!--
+		<a href="#skills" class="nav-element">Skills</a>
+        <a href="#projects" class="nav-element">Projects</a>
+	    -->
+        <a href="#publications" class="nav-element">Publications</a>
+        <a href="#services" class="nav-element">Services</a>
+        <a href="#others" class="nav-element">Others</a>
+        <!-- <a href="#contact">Contact</a> -->
+      </nav>
+      <section id="summary" class="section text-format container">
+        <img
+          src="./img/avijit1.png"
+          style="width: 260px; height: 220px"
+          align="left"
+        />
+        <h2>Summary</h2>
+        <p>
+          Software Engineer with passion for working on cloud native web
+          applications.
+        </p>
+      </section>
 
-</head>
-<body>
+      <section id="experience" class="section text-format container">
+        <h2>Experience</h2>
 
-	<main>
-		<nav class="nav navbargi">
-			<a href="#" class="nav-element">Avijit Bhattacharjee</a>
-			<a href="#summary" class="nav-element">Summary</a>
-			<a href="#education" class="nav-element">Education</a>
-			<a href="#experience" class="nav-element">Experience</a>
-			<a href="#skills" class="nav-element">Skills</a>
-			<a href="#projects" class="nav-element">Projects</a>
-			<a href="#blog" class="nav-element">Blog</a>
-			<a href="#publications" class="nav-element">Publications</a>
-			<a href="#services" class="nav-element">Services</a>
-			<!-- <a href="#contact">Contact</a> -->
-			
-		</nav>
-		<section id="summary" class="section text-format container">
-			
-			<img src="./img/avijit1.png" style="width:260px;height:220px;" align="left">
-			<h2 >Summary</h2>
-			<p >
-				Currently I am preparing to defend my M.Sc. thesis in Software Engineering at <a href="https://www.cs.usask.ca/"> Computer Science Department, University of Saskatchewan, Canada </a> under the supervision of <a href="https://ise.usask.ca/broy/"> Dr. Banani Roy</a>. I am looking for software engineering job opportunities as a Full stack or Backend developer.
-			</p>
-		</section>
-			
-			
-		<section id="education" class="section text-format container">
-			<h2>Education</h2>
-			
-			<span> <b> University of Saskatchewan </b> </span>  <span class="timeline">Apr 2021 (expected) </span> 
-			<ul>
-				<li>M.Sc. in Computer Science (Software Engineering) </li>
-			</ul>
-			<p> <b> Khulna University  </b> 2018</p>
-			 
-			<ul>
-				<li> B.Sc. in Computer Science & Engineering </li>
-			</ul>
-			
-			
-		</section>
+        <p><b> Software Developer </b> Aug 2022 - Present</p>
+        <a href="https://www.dyspatch.io/"> Dyspatch </a>
 
-		<section id="experience" class="section text-format container">
-			<h2>Experience</h2>
-			<p> <b> Software Engineer (part-time) </b> Jan 2020 - Present </p>
+        <ul>
+          <li>
+            Upgraded Workspace access assignment to use new role-based
+            permission system
+          </li>
+          <li>
+            Implemented webhook-based custom notification system to be used with
+            Slack, Zapier
+          </li>
+        </ul>
 
-			 
-			Saskatchewan Education Leadership Unit <br>
-			Placement Application <a href="https://placement.usask.ca/"> <u> link </u> </a>
-			<ul>
-				<li>Upgraded web server from nginx to apache and modified codebase accordingly.</li>
-				<li>Converted NoSQL based documents to MySQL based tables and migrated previous data to new MySQL based database.</li>
-				<li>Structured development workflow by setting up independent development and production server.</li>
-				<li>Fixed all deprecated functions in admin part due to change of database from NoSQL to MySQL based.</li>
-				<li>Implemented secured forget password functionality</li>
-				<li>Technologies : Python, Flask, mongoDB, Apache, mariaDB, Linux, Git</li>
+        <p><b> Intermediate Software Engineer </b> Jul 2021 - Jun 2022</p>
+        <a href="https://xgen.ai/"> XGen AI </a>
+        <ul>
+          <li>
+            Implemented custom Multi Factor Authentication using AWS Cognito
+            custom auth
+          </li>
+          <li>
+            Refactored product sync service by coordinating with stakeholders to
+            reduce human-error
+          </li>
+          <li>
+            Decoupled authentication from deprecated authentication service and
+            updated customer facing sites to use the new endpoints
+          </li>
+          <li>
+            Designed and developed an authentication service that issues and
+            verifies access tokens
+          </li>
+          <li>
+            Diagnosed and fixed a critical bug which caused unintentionally
+            over-write of existing user accounts
+          </li>
+        </ul>
 
-			</ul>
+        <p><b> Software Engineer (part-time) </b> Jan 2020 - Jun 2021</p>
+        <a href=""> Saskatchewan Education Leadership Unit </a> <br />
+        <a href="https://placement.usask.ca/">
+          <u> Placement Application </u>
+        </a>
+        <ul>
+          <li>
+            Designed & implemented a feature to enable returning interns,
+            mentors to use their previous application
+          </li>
+          <li>
+            Automated the process of rerunning matching algorithm by
+            implementing clear system matches feature which saves 45% time
+          </li>
+          <li>
+            Upgraded features like exporting, listing interns, mentors, matches
+            for admin to use MySQLinstead of previous NoSQL DB
+          </li>
+          <li>
+            Fixed a critical bug in the optimization part of matching algorithm
+            which caused some unusual matching result
+          </li>
 
-			<p> <b> Core CS Team Member (GWF) </b> Jan 2019 - Present </p>
+          <li>
+            Technologies : Python, Flask, mongoDB, Apache, mariaDB, Linux, Git
+          </li>
+        </ul>
 
-			 
-			University of Saskatchewan <br>
-			Nutrient Application <a href="https://gwf.usask.ca/projects-facilities/nutrient-app.php#Overview"> <u> link </u> </a>
-			<ul>
-				<li>Developed REST API for Nutrient Application to retrieve and store data in university owned database.</li>
-				<li>Technologies : Python, Flask, Postgres</li>
-				<li>Implemented GEO map for the website of Nutrient app which shows Nitrate, Phosphate concentration at different
-Geo-location using the data from the REST API before-mentioned. <a href="https://gwf.usask.ca/projects-facilities/nutrient-app.php#ViewYourMeasurements"> <u> link </u> </a></li>
-				<li>Technologies : HTML, CSS, Jquery, leafletjs</li>
+        <p><b> Core CS Team Member (GWF) </b> Jan 2019 - Present</p>
 
-			</ul>
+        University of Saskatchewan <br />
+        Nutrient Application
+        <a
+          href="https://gwf.usask.ca/projects-facilities/nutrient-app.php#Overview"
+        >
+          <u> link </u>
+        </a>
+        <ul>
+          <li>
+            Developed REST API for Nutrient Application to retrieve and store
+            data in university owned database.
+          </li>
+          <li>Technologies : Python, Flask, Postgres</li>
+          <li>
+            Implemented GEO map for the website of Nutrient app which shows
+            Nitrate, Phosphate concentration at different Geo-location using the
+            data from the REST API before-mentioned.
+            <a
+              href="https://gwf.usask.ca/projects-facilities/nutrient-app.php#ViewYourMeasurements"
+            >
+              <u> link </u>
+            </a>
+          </li>
+          <li>Technologies : HTML, CSS, Jquery, leafletjs</li>
+        </ul>
 
-			<p> <b> Software Engineer Intern </b> Feb 2017 </p>
+        <p><b> Software Engineer Intern </b> Feb 2017</p>
 
-			Trustaira Bangladesh Limited
-			<ul>
-				<li>Implemented a prototype in order to analyze sentiment in Bangla language text written using English characters.
-<a href="https://techfoxweb.wordpress.com/2017/07/24/banglish-sentiment-analysis/"> <u> link </u> </a></li>
-				<li>Technologies : Python, pyAvroPhonetic, TextBlob, vaderSentiment</li>
+        Trustaira Bangladesh Limited
+        <ul>
+          <li>
+            Implemented a prototype in order to analyze sentiment in Bangla
+            language text written using English characters.
+            <a
+              href="https://techfoxweb.wordpress.com/2017/07/24/banglish-sentiment-analysis/"
+            >
+              <u> link </u>
+            </a>
+          </li>
+          <li>
+            Technologies : Python, pyAvroPhonetic, TextBlob, vaderSentiment
+          </li>
+        </ul>
+      </section>
 
-			</ul>
-		
-			
-			
-		</section>
+      <section id="education" class="section text-format container">
+        <h2>Education</h2>
 
-		<section id="projects" class="section text-format container">
-			<h2>Projects</h2>
+        <p><b> University of Saskatchewan </b> 2021</p>
+        <ul>
+          <li>M.Sc. in Computer Science (Software Engineering)</li>
+        </ul>
+        <p><b> Khulna University </b> 2018</p>
 
-			<ul>
-				<li> <b> URL Shortener (2021).</b> Built a full stack JavaScript app which transforms a long URL to a short URL and
-redirects the short URL to the long URL. (Node.js, Express, MongoDB, Mongoose)</li>
-				<li> <b>healthTrend (2020).</b> Developed a web application which analyzes tweets according to trending health topics
-and peoples sentiment toward the topic and provides summary. (Python, Flask, Twitter API, gensim, spaCy,
-NLP)</li>
-				<li> <b> Exercise Tracker (2020).</b> Built a full stack JavaScript app where users can sign up, log exercises, query
-previous exercises with custom date range. (Node.js, Express, MongoDB, Mongoose)</li>
-				<li> <b> Online Admission Test Registration System (2017).</b> Developed a web based application for admission test
-registration to get admission at Khulna University. (PHP , MySQL, JQuery, Bootstrap)</li>
-			</ul>
-			
-		</section>
+        <ul>
+          <li>B.Sc. in Computer Science & Engineering</li>
+        </ul>
+      </section>
 
-		<section id="skills" class="section text-format container">
-			<h2>Skills</h2>
-			<ul>
-				<li>Language: Python, Node.js, Java</li>
-				<li>Frameworks: Flask, Express, Laravel, Bootstrap</li>
-				<li>Others: Linux, MySQL, MongoDB</li>
-			</ul>
-			
-			
-		</section>
+      <section id="publications" class="section text-format container">
+        <h2>Publications</h2>
 
-		<section id="publications" class="section text-format container">
-			<h2>Publications</h2>
+        <ul>
+          <li>
+            <div class="paper mb-3">
+              <a href="#">A. Bhattacharjee</a>
+              , S. Nath,
+              <a href="https://www.eecg.utoronto.ca/~shuruiz/" target="_blank"
+                >S. Zhou</a
+              >
+              , D. Chakroborti,
+              <a href="http://srlab-new.usask.ca/broy/" target="_blank"
+                >B. Roy</a
+              >
+              ,
+              <a href="https://www.cs.usask.ca/~croy/" target="_blank"
+                >C. Roy</a
+              >
+              , and
+              <a
+                href="https://www.cs.usask.ca/faculty/kas/Welcome.html"
+                target="_blank"
+                >K. Schneider</a
+              >
+              .
+              <i
+                >An Exploratory Study to Find Motives behind Cross-platform
+                Forks from Software Heritage Dataset.
+              </i>
+              In Proceedings of the 17th International Conference on Mining
+              Software Repositories (MSR) - Mining Challenge Track, 2020.
+            </div>
+          </li>
 
-			<div class="paper mb-3">
-                        <a href="#" >A. Bhattacharjee</a>
-                        , S. Nath, 
-                        <a href="https://www.eecg.utoronto.ca/~shuruiz/" target="_blank">S. Zhou</a>
-                        , D. Chakroborti, 
-                        <a href="http://srlab-new.usask.ca/broy/" target="_blank">B. Roy</a>
-                        , 
-                        <a href="https://www.cs.usask.ca/~croy/" target="_blank">C. Roy</a>
-                        , and 
-                        <a href="https://www.cs.usask.ca/faculty/kas/Welcome.html" target="_blank">K. Schneider</a>
-                        . 
-                        <strong>An Exploratory Study to Find Motives behind Cross-platform Forks from Software Heritage Dataset. </strong>
-                        In Proceedings of the 17th International Conference on Mining Software Repositories (MSR) - Mining Challenge Track, 2020. 
-                                      
-                    </div>
+          <li>
+            <div class="paper mb-3">
+              Avijit Bhattacharjee, Banani Roy, and Kevin A. Schneider. 2022.
+              <i>
+                Supporting program comprehension by generating abstract code
+                summary tree.
+              </i>
+              In Proceedings of the ACM/IEEE 44th International Conference on
+              Software Engineering: New Ideas and Emerging Results (ICSE-NIER
+              '22). Association for Computing Machinery, New York, NY, USA,
+              81–85. https://doi.org/10.1145/3510455.3512793
+            </div>
+          </li>
 
-		</section>
+          <li>
+            <div class="paper mb-3">
+              Saikat Mondal, C M Khaled Saifullah, Avijit Bhattacharjee,
+              Mohammad Masudur Rahman, and Chanchal K. Roy. 2021.
+              <i>
+                Early Detection and Guidelines to Improve Unanswered Questions
+                on Stack Overflow.
+              </i>
+              In 14th Innovations in Software Engineering Conference (formerly
+              known as India Software Engineering Conference) (ISEC 2021).
+              Association for Computing Machinery, New York, NY, USA, Article 9,
+              1–11. https://doi.org/10.1145/3452383.3452392
+            </div>
+          </li>
+        </ul>
+      </section>
 
-	
-		<section id="blog" class="section text-format container">
-			<h2>Blog</h2>
+      <section id="services" class="section text-format container">
+        <h2>Services</h2>
 
-			<ul>
-				<li> <a href="https://www.linkedin.com/pulse/how-work-your-lab-desktop-ubuntu-linux-from-home-avijit-bhattacharjee/"> How to work in your Lab Desktop (Ubuntu or Linux) from Home using VScode and Remote-ssh plugin </a> </li>
-				<li> <a href="https://www.germanprobashe.com/archives/16629"> Introduction to IELTS Academic test and guideline </a>  </li>
-				<li>Check out <a href="http://blog.avijitbhattacharjee.com">my personal  blog. </a></li>
-			</ul>
+        <ul>
+          <li>
+            VP Social at
+            <a href="https://csgcc.usask.ca">
+              Computer Science Graduate Council, Department of Computer Science,
+              University of Saskatchewan
+            </a>
+          </li>
+          <li>
+            Reviewer:
+            <a href="https://2021.msrconf.org/profile/avijitbhattacharjee">
+              MSR 2021 Data Challenge Track
+            </a>
+          </li>
+          <li>
+            Sub reviewer: ICSE 2020 (tool track), SANER 2020, IWSC 2020, ASE
+            2019, CASCON 2019, ICPC 2019 (replication track)
+          </li>
+        </ul>
+      </section>
 
-			
-		</section>
+      <section id="others" class="section text-format container">
+        <h2>Others</h2>
 
-		<section id="services" class="section text-format container">
-			<h2>Services</h2>
+        <ul>
+          <li>
+            <a
+              href="https://thestarphoenix.com/news/local-news/young-innovators-u-of-s-researcher-building-a-tool-for-more-efficient-software-coding"
+            >
+              Young Innovators: U of S researcher building a tool for more
+              efficient software coding
+            </a>
+          </li>
 
-			<ul>
-				<li>VP Social at <a href="https://csgcc.usask.ca">  Computer Science Graduate Council, Department of Computer Science, University of Saskatchewan </a> </li>
-				<li>Reviewer: <a href="https://2021.msrconf.org/profile/avijitbhattacharjee"> MSR 2021 Data Challenge Track </a></li>
-				<li>Sub reviewer: ICSE 2020 (tool track), SANER 2020, IWSC 2020, ASE 2019, CASCON 2019, ICPC 2019 (replication track)</li>
-			</ul>
+          <li>
+            <a
+              href="https://www.cs.usask.ca/news/2022/graduate-student-award-recipients.php"
+            >
+              Graduate Student Award Recipients USask 2022
+            </a>
+          </li>
 
-			
-		</section>
-
-
-		
-	</main>
-
-</body>
+          <li>
+            <a
+              href="https://www.linkedin.com/pulse/how-work-your-lab-desktop-ubuntu-linux-from-home-avijit-bhattacharjee/"
+            >
+              How to work in your Lab Desktop (Ubuntu or Linux) from Home using
+              VScode and Remote-ssh plugin
+            </a>
+          </li>
+          <li>
+            <a href="https://www.germanprobashe.com/archives/16629">
+              Introduction to IELTS Academic test and guideline
+            </a>
+          </li>
+          <li>
+            Check out
+            <a href="http://blog.avijitbhattacharjee.com">my personal blog. </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
 </html>
